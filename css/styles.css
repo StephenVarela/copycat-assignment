@@ -1,6 +1,9 @@
 *,html{
   box-sizing: border-box;
 }
+html{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 body{
   margin: 0px;
   display: grid;
@@ -10,6 +13,8 @@ body{
 header{
   background-color: #06D6A0;
   grid-column: 1/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 main{
@@ -22,6 +27,16 @@ p{
   font-size: 20px;
 }
 
+h1{
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+}
+
+nav{
+  text-align: right;
+  font-size: 20px;
+}
 nav, h1{
   display: inline-block;
 }
@@ -29,21 +44,31 @@ nav, h1{
 nav>ul>li{
   list-style-type: none;
   display: inline-block;
+  margin: 5px;
+  padding: 0px;
 }
 
 img{
-  width: 60%;
+  width: 100%;
   border: 1px solid black;
+  margin-bottom: 5px;
 }
+.section1{
+  background-color: #26547C;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+
  .section1>h2{
    display: inline-block;
    margin: auto;
    color: white;
+   font-size: 30px;
+   grid-column-start: 2;
+   vertical-align: top;
  }
 
- .section1{
-   background-color: #26547C;
- }
+
 
  .section2{
    background-color: #FFD166;
@@ -91,9 +116,12 @@ img{
 
  footer{
    background-color: #06D6A0;
-   padding: 10px;
+   padding-right: 20px;
    margin: 0px;
    grid-column: 1/4;
+   text-align: right;
+   text-decoration: none;
+
  }
 
  .boxes{
