@@ -1,0 +1,15 @@
+*,html{
+
+}
+header{
+  background-color: #06D6A0;
+}
+
+nav, h1{
+  display: inline-block;
+}
+
+nav>ul>li{
+  list-style-type: none;
+  display: inline-block;
+}
