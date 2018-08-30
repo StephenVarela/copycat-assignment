@@ -54,7 +54,7 @@ nav>ul{
   padding: 10px;
 }
 
-img{
+.section1>img{
   width: 100%;
   border: 1px solid black;
   margin-bottom: 5px;
@@ -94,8 +94,8 @@ img{
  }
 
  .gifs>.boxes{
-   background-color: black;
    margin: 10px;
+   border: 3px solid black;
  }
  .gifs>.boxes>img{
    height: 100%;
@@ -128,7 +128,11 @@ img{
    grid-column: 1/4;
    text-align: right;
    text-decoration: none;
+ }
 
+ footer>h4{
+   font-weight: normal;
+   font-size: 20px;
  }
 
  .boxes{
