@@ -3,10 +3,19 @@
 }
 body{
   margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1080px 1fr;
 }
 
 header{
   background-color: #06D6A0;
+  grid-column: 1/4;
+}
+
+main{
+  max-width: 1080px;
+  grid-column: 2/3;
+
 }
 
 nav, h1{
@@ -63,6 +72,9 @@ img{
 
  footer{
    background-color: #06D6A0;
+   padding: 10px;
+   margin: 0px;
+   grid-column: 1/4;
  }
 
  .boxes{
